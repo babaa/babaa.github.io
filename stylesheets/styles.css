@@ -1,10 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  font-family: 'Open Sans', sans-serif;  color:#777;
+  text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,25 +15,24 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
-}
-
 h1 {
   font-size:28px;
 }
 
 h2 {
   color:#393939;
+  margin-top: 100px;
 }
 
+h3 {
+  margin-top: 50px;
+}
 h3, h4, h5, h6 {
   color:#494949;
 }
 
 a {
-  color:#39c;
-  font-weight:400;
+  color:#40EFF5;
   text-decoration:none;
 }
 
@@ -46,7 +44,6 @@ a small {
 }
 
 .wrapper {
-  width:860px;
   margin:0 auto;
 }
 
@@ -84,7 +81,6 @@ th, td {
 
 dt {
   color:#444;
-  font-weight:700;
 }
 
 th {
@@ -96,9 +92,6 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
 }
 
 header ul {
@@ -160,9 +153,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
   padding-bottom:50px;
+  margin: 0;
 }
 
 small {
